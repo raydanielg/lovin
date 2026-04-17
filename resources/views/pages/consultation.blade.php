@@ -375,7 +375,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-3xl mx-auto text-center" data-aos="fade-up">
                 <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-                    <i class="fas fa-calendar-check text-yellow-400"></i>
+                    <i class="ri-calendar-check-line text-yellow-400"></i>
                     <span class="text-yellow-300 text-sm font-medium">Free Expert Consultation</span>
                 </div>
                 
@@ -389,15 +389,15 @@
                 
                 <div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-400">
                     <span class="flex items-center gap-2">
-                        <i class="fas fa-clock text-yellow-400"></i>
+                        <i class="ri-time-line text-yellow-400"></i>
                         30 Minutes
                     </span>
                     <span class="flex items-center gap-2">
-                        <i class="fas fa-video text-yellow-400"></i>
+                        <i class="ri-video-chat-line text-yellow-400"></i>
                         Video Call
                     </span>
                     <span class="flex items-center gap-2">
-                        <i class="fas fa-gift text-yellow-400"></i>
+                        <i class="ri-gift-line text-yellow-400"></i>
                         Free of Charge
                     </span>
                 </div>
@@ -940,7 +940,7 @@
                         <!-- Success Message -->
                         <div x-show="showSuccess" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" class="text-center py-12">
                             <div class="success-checkmark mb-6">
-                                <i class="fas fa-check"></i>
+                                <i class="ri-check-line"></i>
                             </div>
                             <h3 class="text-2xl font-bold text-gray-900 mb-2">Request Submitted!</h3>
                             <p class="text-gray-600 mb-6">Thank you for scheduling a consultation. Our team will review your request and contact you within 24 hours to confirm your appointment.</p>

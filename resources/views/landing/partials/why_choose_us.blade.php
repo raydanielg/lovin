@@ -60,43 +60,31 @@
                 </div>
             </div>
             
-            <!-- Right - Image/Visual -->
+            <!-- Right - Team Image -->
             <div class="relative" data-aos="fade-left">
                 <div class="relative">
                     <div class="absolute -inset-4 bg-gradient-to-r from-green-400 to-yellow-400 rounded-2xl opacity-20 blur-lg"></div>
-                    <div class="relative bg-white rounded-2xl p-8 shadow-xl">
-                        <div class="grid grid-cols-2 gap-6">
-                            <div class="text-center p-6 bg-green-50 rounded-xl">
-                                <div class="text-4xl font-bold text-green-600 mb-2">500+</div>
-                                <div class="text-sm text-gray-600">Projects Completed</div>
-                            </div>
-                            <div class="text-center p-6 bg-yellow-50 rounded-xl">
-                                <div class="text-4xl font-bold text-yellow-600 mb-2">50+</div>
-                                <div class="text-sm text-gray-600">Enterprise Clients</div>
-                            </div>
-                            <div class="text-center p-6 bg-green-50 rounded-xl">
-                                <div class="text-4xl font-bold text-green-600 mb-2">99.9%</div>
-                                <div class="text-sm text-gray-600">Uptime Guarantee</div>
-                            </div>
-                            <div class="text-center p-6 bg-yellow-50 rounded-xl">
-                                <div class="text-4xl font-bold text-yellow-600 mb-2">24/7</div>
-                                <div class="text-sm text-gray-600">Support Available</div>
-                            </div>
-                        </div>
+                    <div class="relative bg-white rounded-2xl overflow-hidden shadow-xl">
+                        <img src="{{ asset('illustration/collaborative-team-working-project-modern-office-setting_1155284-19757.jpg') }}" alt="Glovin Team Collaboration" class="w-full h-auto object-cover">
                         
-                        <div class="mt-6 pt-6 border-t border-gray-100">
-                            <div class="flex items-center justify-center gap-8">
-                                <div class="text-center">
-                                    <i class="bi bi-certificate text-3xl text-green-500 mb-2"></i>
-                                    <div class="text-xs text-gray-500">ISO Certified</div>
+                        <!-- Floating Stats Card -->
+                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg">
+                            <div class="grid grid-cols-4 gap-2 text-center">
+                                <div>
+                                    <div class="text-2xl font-bold text-green-600">500+</div>
+                                    <div class="text-xs text-gray-600">Projects</div>
                                 </div>
-                                <div class="text-center">
-                                    <i class="bi bi-award text-3xl text-yellow-500 mb-2"></i>
-                                    <div class="text-xs text-gray-500">Award Winning</div>
+                                <div>
+                                    <div class="text-2xl font-bold text-yellow-600">50+</div>
+                                    <div class="text-xs text-gray-600">Clients</div>
                                 </div>
-                                <div class="text-center">
-                                    <i class="bi bi-handshake text-3xl text-green-500 mb-2"></i>
-                                    <div class="text-xs text-gray-500">Trusted Partner</div>
+                                <div>
+                                    <div class="text-2xl font-bold text-green-600">99.9%</div>
+                                    <div class="text-xs text-gray-600">Uptime</div>
+                                </div>
+                                <div>
+                                    <div class="text-2xl font-bold text-yellow-600">24/7</div>
+                                    <div class="text-xs text-gray-600">Support</div>
                                 </div>
                             </div>
                         </div>

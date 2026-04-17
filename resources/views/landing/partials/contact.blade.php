@@ -15,6 +15,10 @@
             <!-- Left - Contact Info -->
             <div data-aos="fade-right">
                 <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+                    <!-- Contact Illustration -->
+                    <div class="mb-6 rounded-xl overflow-hidden">
+                        <img src="{{ asset('illustration/flat-vector-business-consultation-editable-design_203633-8192.jpg') }}" alt="Business Consultation" class="w-full h-48 object-cover">
+                    </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
                     
                     <div class="space-y-6">

@@ -18,45 +18,45 @@
 
 ---
 
-## 🌍 About Glovin Limited
+## [A] About Glovin Limited
 
 Glovin Limited is a forward-thinking technology company dedicated to delivering **secure, scalable, and intelligent digital solutions** across Africa. With operational presence in both **Dubai** and **Dar es Salaam**, the company blends global innovation with strong regional expertise.
 
-### 🎯 Our Mission
+### [T] Our Mission
 To provide timely, tailored, and high-quality solutions that protect client interests while addressing both technological and commercial challenges in a rapidly evolving digital landscape.
 
-### 👁️ Our Vision
+### [V] Our Vision
 To become a leading African technology powerhouse by delivering innovative software and secure digital infrastructure that drive intelligent transformation across the continent.
 
 ---
 
-## 🚀 Core Services & Solutions
+## [S] Core Services & Solutions
 
-### 💻 Software Development
+### [1] Software Development
 - Custom Enterprise Applications
 - Web & Mobile Solutions
 - API Development & Integration
 - Cloud-Native Applications
 
-### 🔒 Cybersecurity Solutions
+### [2] Cybersecurity Solutions
 - Security Operations Center (SOC)
 - Threat Monitoring & Response
 - Vulnerability Assessments
 - Compliance & Risk Management
 
-### 🏥 Healthcare Technology
+### [3] Healthcare Technology
 - **HMIS** - Hospital Management Information Systems
 - **EMR/EHR** - Electronic Medical Records
 - Telemedicine Platforms
 - Health Data Analytics
 
-### 💳 Financial Intelligence
+### [4] Financial Intelligence
 - **CCIP** - Centralized Credit Intelligence Platform
 - Digital Banking Solutions
 - Payment Processing Systems
 - Fraud Detection & Risk Management
 
-### 📊 Track & Trace Systems
+### [5] Track & Trace Systems
 - Anti-counterfeit Solutions
 - Product Tracking Systems
 - Supply Chain Visibility
@@ -64,22 +64,22 @@ To become a leading African technology powerhouse by delivering innovative softw
 
 ---
 
-## 🏢 Industries We Serve
+## [I] Industries We Serve
 
 | Industry | Solutions |
 |----------|-----------|
-| 🏛️ **Government** | Revenue Collection, e-Government, Digital Services |
-| 🏥 **Healthcare** | HMIS, EMR, Telemedicine, Health Analytics |
-| 🏦 **Banking & Finance** | CCIP, Digital Banking, Payment Systems |
-| 📡 **Telecommunications** | Infrastructure, Billing Systems, Customer Management |
-| 🏭 **Manufacturing** | ERP, Supply Chain, Quality Control |
-| 🛒 **Retail** | POS, Inventory, E-commerce |
-| 🎓 **Education** | Learning Management, Student Information Systems |
-| 🚛 **Logistics** | Fleet Management, Route Optimization, Tracking |
+| **[G]** **Government** | Revenue Collection, e-Government, Digital Services |
+| **[H]** **Healthcare** | HMIS, EMR, Telemedicine, Health Analytics |
+| **[B]** **Banking & Finance** | CCIP, Digital Banking, Payment Systems |
+| **[T]** **Telecommunications** | Infrastructure, Billing Systems, Customer Management |
+| **[M]** **Manufacturing** | ERP, Supply Chain, Quality Control |
+| **[R]** **Retail** | POS, Inventory, E-commerce |
+| **[E]** **Education** | Learning Management, Student Information Systems |
+| **[L]** **Logistics** | Fleet Management, Route Optimization, Tracking |
 
 ---
 
-## 🛠️ Technology Stack
+## [T] Technology Stack
 
 ### Backend
 - **Laravel 11** - PHP Framework
@@ -101,7 +101,7 @@ To become a leading African technology powerhouse by delivering innovative softw
 
 ---
 
-## 📂 Project Structure
+## [P] Project Structure
 
 ```
 lovin/
@@ -132,7 +132,7 @@ lovin/
 
 ---
 
-## 🚀 Getting Started
+## [D] Getting Started
 
 ### Prerequisites
 - PHP 8.2 or higher
@@ -190,7 +190,7 @@ Visit `http://localhost:8000` to see the application.
 
 ---
 
-## 🌐 Deployment
+## [Y] Deployment
 
 ### Production Setup
 
@@ -216,15 +216,15 @@ Visit `http://localhost:8000` to see the application.
 
 ---
 
-## 🔍 SEO & Performance
+## [O] SEO & Performance
 
 ### Implemented Features
-- ✅ **XML Sitemap** - `/sitemap.xml`
-- ✅ **Meta Tags** - Open Graph, Twitter Cards
-- ✅ **Structured Data** - Schema.org markup
-- ✅ **Responsive Design** - Mobile-first approach
-- ✅ **Fast Loading** - Optimized images & CDN assets
-- ✅ **Clean URLs** - SEO-friendly routing
+- [x] **XML Sitemap** - `/sitemap.xml`
+- [x] **Meta Tags** - Open Graph, Twitter Cards
+- [x] **Structured Data** - Schema.org markup
+- [x] **Responsive Design** - Mobile-first approach
+- [x] **Fast Loading** - Optimized images & CDN assets
+- [x] **Clean URLs** - SEO-friendly routing
 
 ### Page Speed Optimizations
 - CDN-hosted assets (Tailwind, Fonts, Icons)
@@ -234,15 +234,15 @@ Visit `http://localhost:8000` to see the application.
 
 ---
 
-## 📞 Contact Information
+## [C] Contact Information
 
 | Channel | Details |
 |---------|---------|
-| 🌐 **Website** | [www.glovin.co.tz](https://www.glovin.co.tz) |
-| 📧 **Email** | info@glovin.co.tz |
-| 📞 **Phone** | +255 718 637 328 |
-| 📍 **Head Office** | Dar es Salaam, Tanzania |
-| 🏢 **Regional Office** | Dubai, UAE |
+| **Website** | [www.glovin.co.tz](https://www.glovin.co.tz) |
+| **Email** | info@glovin.co.tz |
+| **Phone** | +255 718 637 328 |
+| **Head Office** | Dar es Salaam, Tanzania |
+| **Regional Office** | Dubai, UAE |
 
 ### Business Hours
 - **Monday - Friday**: 8:00 AM - 6:00 PM EAT
@@ -250,23 +250,31 @@ Visit `http://localhost:8000` to see the application.
 
 ---
 
-## 📄 License
+## Developer Information
 
-This project is proprietary software owned by **Glovin Limited**. All rights reserved.
+**Developed by:** Ezra Daniel Gyunda
 
-© 2024-2026 Glovin Limited. Unauthorized copying, modification, distribution, or use of this software is strictly prohibited.
+**License Status:** This software is developed under a commercial agreement. Full ownership and license rights will be transferred to Glovin Limited upon completion of payment as per the development contract.
 
 ---
 
-## 🤝 Contributing
+## License
 
-While this is a proprietary project, we welcome feedback and suggestions. Please contact us at info@glovin.co.tz for any inquiries.
+**Copyright (c) 2024-2026 Glovin Limited**
+
+This project is proprietary software. All rights reserved.
+
+Unauthorized copying, modification, distribution, or use of this software is strictly prohibited without express written permission from Glovin Limited and the developer Ezra Daniel Gyunda.
+
+For licensing inquiries, please contact:
+- Glovin Limited: info@glovin.co.tz
+- Developer: [Developer Contact]
 
 ---
 
 <p align="center">
   <strong>Transforming Africa Through Technology</strong><br>
-  <sub>Secure • Scalable • Intelligent</sub>
+  Secure | Scalable | Intelligent
 </p>
 
 <p align="center">

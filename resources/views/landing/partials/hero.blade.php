@@ -172,12 +172,12 @@
                         
                         <!-- Floating Network Nodes -->
                         <div class="absolute top-4 left-8 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 0s;">
-                            <i class="fas fa-server text-white"></i>
+                            <i class="ri-server-line text-white"></i>
                             <div class="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
                         </div>
                         
                         <div class="absolute top-12 right-4 w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 0.5s;">
-                            <i class="fas fa-cloud text-white text-sm"></i>
+                            <i class="ri-cloud-line text-white text-sm"></i>
                             <div class="absolute -bottom-1 -left-1 w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                         </div>
                         

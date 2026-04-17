@@ -4,16 +4,22 @@ RewriteEngine On
 DirectoryIndex index.php index.html
 
 # Force HTTPS (optional - unaweza kuondoa kama bado huna SSL)
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Remove www (optional)
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+# RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+# RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
-# If file or folder exists, open it normally
+# Handle Authorization Header for Laravel Sanctum/API
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+# Redirect requests to existing files in public folder directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ index.php [L]
 
-# Otherwise redirect to index.php
-RewriteRule ^ index.php [L]
+# Security: Deny access to sensitive directories
+RedirectMatch 403 ^/(\.env|\.git|\.gitignore|composer\.lock|composer\.json|package\.json|package-lock\.json|vendor|node_modules|storage|config|bootstrap|app|database|tests|routes|resources|artisan|phpunit\.xml|README\.md|server\.php)/?$

@@ -182,15 +182,15 @@
                         </div>
                         
                         <div class="absolute bottom-20 left-4 w-10 h-10 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 1s;">
-                            <i class="fas fa-database text-white text-sm"></i>
+                            <i class="ri-database-2-line text-white text-sm"></i>
                         </div>
                         
                         <div class="absolute bottom-32 right-8 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 1.5s;">
-                            <i class="fas fa-shield-alt text-white text-xs"></i>
+                            <i class="ri-shield-check-line text-white text-xs"></i>
                         </div>
                         
                         <div class="absolute top-20 right-20 w-6 h-6 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-full flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 2s;">
-                            <i class="fas fa-wifi text-white text-xs"></i>
+                            <i class="ri-wifi-line text-white text-xs"></i>
                         </div>
                         
                         <!-- Data Packets Animation -->

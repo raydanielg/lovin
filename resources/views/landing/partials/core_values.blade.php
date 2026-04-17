@@ -1,14 +1,22 @@
 <!-- Core Values Section -->
 <section id="values" class="py-24 bg-white">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
-            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-50 border border-yellow-200 mb-6">
-                <i class="ri-star-fill text-yellow-600"></i>
-                <span class="text-yellow-700 text-sm font-medium">What We Stand For</span>
+        <!-- Section Header with Image -->
+        <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div data-aos="fade-right">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-50 border border-yellow-200 mb-6">
+                    <i class="ri-star-fill text-yellow-600"></i>
+                    <span class="text-yellow-700 text-sm font-medium">What We Stand For</span>
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Core Values</h2>
+                <p class="text-gray-600 text-lg">Glovin operates under a strong foundation of principles that guide every decision we make and every solution we deliver.</p>
             </div>
-            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Core Values</h2>
-            <p class="text-gray-600">Glovin operates under a strong foundation of principles that guide every decision we make</p>
+            <div class="relative" data-aos="fade-left">
+                <div class="absolute -inset-4 bg-gradient-to-r from-green-400 to-yellow-400 rounded-2xl opacity-20 blur-lg"></div>
+                <div class="relative rounded-2xl overflow-hidden shadow-xl">
+                    <img src="{{ asset('illustration/freelancers-man-woman-sit-table-with-laptops_81522-3714.jpg') }}" alt="Glovin Team Values" class="w-full h-64 object-cover">
+                </div>
+            </div>
         </div>
         
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

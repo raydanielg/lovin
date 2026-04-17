@@ -57,6 +57,17 @@
             </div>
         </div>
         
+        <!-- Vision Image -->
+        <div class="mt-16 relative rounded-2xl overflow-hidden shadow-2xl" data-aos="fade-up">
+            <img src="{{ asset('illustration/welldesigned-flat-illustration-smart-city_203633-8400.jpg') }}" alt="Smart City Technology" class="w-full h-64 md:h-80 object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-green-900/70 to-transparent flex items-center">
+                <div class="p-8 md:p-12">
+                    <h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Building Africa's Digital Future</h3>
+                    <p class="text-white/80 max-w-md">Transforming cities and businesses through innovative technology solutions</p>
+                </div>
+            </div>
+        </div>
+        
         <!-- Core Objectives -->
         <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white rounded-xl p-6 border border-gray-100 text-center hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="100">

@@ -48,13 +48,11 @@
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
-                <div class="relative h-full min-h-[400px] bg-gradient-to-br from-green-700 to-green-800 flex items-center justify-center">
-                    <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.05"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
-                    <div class="relative z-10 text-center">
-                        <div class="w-32 h-32 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center mx-auto mb-6">
-                            <i class="bi bi-credit-card-2-front text-6xl text-yellow-400"></i>
-                        </div>
-                        <div class="text-white text-xl font-bold">CCIP</div>
+                <div class="relative h-full min-h-[400px] overflow-hidden">
+                    <img src="{{ asset('illustration/web-developers-flat-illustration-programming_203633-8396.jpg') }}" alt="CCIP Platform Development" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-green-900/80 via-green-900/40 to-transparent"></div>
+                    <div class="absolute bottom-8 left-8 right-8">
+                        <div class="text-white text-xl font-bold mb-1">CCIP</div>
                         <div class="text-green-200 text-sm">Credit Intelligence Platform</div>
                     </div>
                 </div>

@@ -226,6 +226,7 @@
     </div>
     
     <style>
+        /* Floating Animation */
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-20px); }
@@ -233,6 +234,99 @@
         .animate-float {
             animation: float 4s ease-in-out infinite;
         }
+        
+        /* Sliding Text Animation */
+        @keyframes slide-text {
+            0%, 16% { transform: translateY(0); }
+            20%, 36% { transform: translateY(-100%); }
+            40%, 56% { transform: translateY(-200%); }
+            60%, 76% { transform: translateY(-300%); }
+            80%, 96% { transform: translateY(-400%); }
+            100% { transform: translateY(-500%); }
+        }
+        .sliding-text-container {
+            animation: slide-text 12s ease-in-out infinite;
+        }
+        .sliding-text {
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            lg:justify-start;
+        }
+        
+        /* Code Typing Animation */
+        @keyframes type-in {
+            0% { opacity: 0; transform: translateX(-10px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+        .animate-type {
+            animation: type-in 0.5s ease-out forwards;
+        }
+        
+        /* Blinking Cursor */
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        .animate-blink {
+            animation: blink 1s step-end infinite;
+        }
+        
+        /* Network Dash Animation */
+        @keyframes dash-move {
+            0% { stroke-dashoffset: 20; }
+            100% { stroke-dashoffset: 0; }
+        }
+        .animate-dash {
+            animation: dash-move 1s linear infinite;
+        }
+        
+        /* Floating Network Nodes */
+        @keyframes float-node {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(5px, -10px) scale(1.05); }
+            50% { transform: translate(0, -15px) scale(1); }
+            75% { transform: translate(-5px, -10px) scale(1.05); }
+        }
+        .animate-float-node {
+            animation: float-node 4s ease-in-out infinite;
+        }
+        
+        /* Floating Cards */
+        @keyframes float-card {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(2deg); }
+        }
+        .animate-float-card {
+            animation: float-card 5s ease-in-out infinite;
+        }
+        
+        /* Data Packet Animation */
+        @keyframes packet-move {
+            0% { 
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            100% { 
+                transform: translate(var(--end-x, 100px), var(--end-y, -50px)) scale(0.5);
+                opacity: 0;
+            }
+        }
+        .animate-packet {
+            animation: packet-move 3s ease-in-out infinite;
+        }
+        
+        /* Pulse Ring Animation */
+        @keyframes pulse-ring {
+            0% { transform: scale(1); opacity: 0.5; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+        .animate-pulse-ring {
+            animation: pulse-ring 2s ease-out infinite;
+        }
+        
+        /* Gradient Shift Animation */
         @keyframes gradient {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
@@ -240,13 +334,41 @@
         }
         .animate-gradient {
             animation: gradient 3s ease infinite;
+            background-size: 200% auto;
         }
+        
+        /* Scroll Down Animation */
         @keyframes scroll-down {
             0% { transform: translateY(0); opacity: 1; }
             100% { transform: translateY(12px); opacity: 0; }
         }
         .animate-scroll-down {
             animation: scroll-down 1.5s ease-in-out infinite;
+        }
+        
+        /* Glowing Effect */
+        .glow-green {
+            box-shadow: 0 0 20px rgba(22, 163, 74, 0.5), 0 0 40px rgba(22, 163, 74, 0.3);
+        }
+        .glow-yellow {
+            box-shadow: 0 0 20px rgba(234, 179, 8, 0.5), 0 0 40px rgba(234, 179, 8, 0.3);
+        }
+        
+        /* Connection Line Glow */
+        .connection-glow {
+            filter: drop-shadow(0 0 3px rgba(234, 179, 8, 0.8));
+        }
+        
+        /* Tech Illustration Hover */
+        #tech-illustration:hover .animate-float-node {
+            animation-duration: 2s;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 1024px) {
+            .sliding-text {
+                justify-content: center;
+            }
         }
     </style>
 </section>

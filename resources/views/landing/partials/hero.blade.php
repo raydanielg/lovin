@@ -412,24 +412,58 @@
             animation: float 4s ease-in-out infinite;
         }
         
-        /* Sliding Text Animation */
-        @keyframes slide-text {
-            0%, 16% { transform: translateY(0); }
-            20%, 36% { transform: translateY(-100%); }
-            40%, 56% { transform: translateY(-200%); }
-            60%, 76% { transform: translateY(-300%); }
-            80%, 96% { transform: translateY(-400%); }
-            100% { transform: translateY(-500%); }
+        /* Text Carousel Animation */
+        .text-carousel {
+            position: relative;
+            height: 56px;
         }
-        .sliding-text-container {
-            animation: slide-text 12s ease-in-out infinite;
-        }
-        .sliding-text {
-            height: 48px;
+        
+        .carousel-item {
+            position: absolute;
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             lg:justify-start;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+        }
+        
+        .carousel-item.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+        
+        .carousel-item.prev {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+        
+        /* Slide in from right animation */
+        @keyframes slideInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideOutLeft {
+            0% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
         }
         
         /* Code Typing Animation */

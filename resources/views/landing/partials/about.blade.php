@@ -23,7 +23,7 @@
             <!-- Right - Content -->
             <div data-aos="fade-left">
                 <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-50 border border-green-100 mb-6">
-                    <i class="fas fa-info-circle text-green-600"></i>
+                    <i class="bi bi-info-circle-fill text-green-600"></i>
                     <span class="text-green-700 text-sm font-medium">About Us</span>
                 </div>
                 
@@ -43,7 +43,7 @@
                 <div class="grid sm:grid-cols-2 gap-4 mb-8">
                     <div class="flex items-start gap-3">
                         <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-map-marker-alt text-green-600"></i>
+                            <i class="bi bi-geo-alt-fill text-green-600"></i>
                         </div>
                         <div>
                             <div class="font-semibold text-gray-900">Global Presence</div>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="flex items-start gap-3">
                         <div class="w-10 h-10 rounded-lg bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-users text-yellow-600"></i>
+                            <i class="bi bi-people-fill text-yellow-600"></i>
                         </div>
                         <div>
                             <div class="font-semibold text-gray-900">Expert Team</div>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="flex items-start gap-3">
                         <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-award text-green-600"></i>
+                            <i class="bi bi-award-fill text-green-600"></i>
                         </div>
                         <div>
                             <div class="font-semibold text-gray-900">Certified</div>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="flex items-start gap-3">
                         <div class="w-10 h-10 rounded-lg bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-headset text-yellow-600"></i>
+                            <i class="bi bi-headset text-yellow-600"></i>
                         </div>
                         <div>
                             <div class="font-semibold text-gray-900">24/7 Support</div>
@@ -81,7 +81,7 @@
                 
                 <a href="#services" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-green-600 text-white font-semibold hover:bg-green-700 transition-all">
                     Discover Our Services
-                    <i class="fas fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
         </div>

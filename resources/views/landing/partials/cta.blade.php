@@ -12,7 +12,7 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
-                <i class="fas fa-rocket text-yellow-400"></i>
+                <i class="bi bi-rocket-takeoff text-yellow-400"></i>
                 <span class="text-yellow-300 text-sm font-medium">Get Started Today</span>
             </div>
             
@@ -27,11 +27,11 @@
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="px-8 py-4 rounded-xl bg-gradient-to-r from-yellow-500 to-yellow-600 text-green-900 font-bold text-lg hover:from-yellow-400 hover:to-yellow-500 transition-all shadow-lg hover:shadow-yellow-500/25 flex items-center justify-center gap-2">
-                    <i class="fas fa-calendar-check"></i>
+                    <i class="bi bi-calendar-check-fill"></i>
                     Schedule Consultation
                 </a>
                 <a href="tel:+255718637328" class="px-8 py-4 rounded-xl border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 transition-all flex items-center justify-center gap-2">
-                    <i class="fas fa-phone"></i>
+                    <i class="bi bi-telephone-fill"></i>
                     Call Us Now
                 </a>
             </div>
@@ -39,15 +39,15 @@
             <!-- Trust Badges -->
             <div class="mt-12 flex flex-wrap items-center justify-center gap-8 text-white/60">
                 <div class="flex items-center gap-2">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="bi bi-shield-fill"></i>
                     <span class="text-sm">Secure & Reliable</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <i class="fas fa-clock"></i>
+                    <i class="bi bi-clock-fill"></i>
                     <span class="text-sm">24/7 Support</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <i class="fas fa-check-circle"></i>
+                    <i class="bi bi-check-circle-fill"></i>
                     <span class="text-sm">Free Consultation</span>
                 </div>
             </div>

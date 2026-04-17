@@ -4,7 +4,7 @@
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-green-200 mb-6">
-                <i class="fas fa-envelope text-green-600"></i>
+                <i class="bi bi-envelope-fill text-green-600"></i>
                 <span class="text-green-700 text-sm font-medium">Contact Us</span>
             </div>
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
@@ -20,7 +20,7 @@
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-green-600 text-xl"></i>
+                                <i class="bi bi-geo-alt-fill text-green-600 text-xl"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-900 mb-1">Office Location</h4>
@@ -31,7 +31,7 @@
                         
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 rounded-xl bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-envelope text-yellow-600 text-xl"></i>
+                                <i class="bi bi-envelope-fill text-yellow-600 text-xl"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-900 mb-1">Email Address</h4>
@@ -42,7 +42,7 @@
                         
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-phone text-green-600 text-xl"></i>
+                                <i class="bi bi-telephone-fill text-green-600 text-xl"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-900 mb-1">Phone Number</h4>
@@ -53,7 +53,7 @@
                         
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 rounded-xl bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-globe text-yellow-600 text-xl"></i>
+                                <i class="bi bi-globe text-yellow-600 text-xl"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-900 mb-1">Website</h4>
@@ -111,7 +111,7 @@
                         </div>
                         
                         <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold hover:from-green-700 hover:to-green-800 transition-all shadow-lg flex items-center justify-center gap-2">
-                            <i class="fas fa-paper-plane"></i>
+                            <i class="bi bi-send-fill"></i>
                             Send Message
                         </button>
                     </form>

@@ -180,9 +180,6 @@
         </a>
     </div>
     
-    <!-- Dynamic Network Particles Canvas -->
-    <canvas id="network-canvas" class="absolute inset-0 w-full h-full pointer-events-none opacity-30"></canvas>
-    
     <script>
         // Text Carousel - Smooth cycling through items
         (function() {

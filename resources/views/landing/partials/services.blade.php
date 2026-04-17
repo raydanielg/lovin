@@ -150,7 +150,7 @@
             <!-- Enterprise Digital Platforms -->
             <div class="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all" data-aos="fade-up" data-aos-delay="600">
                 <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center mb-6 shadow-lg">
-                    <i class="fas fa-building text-2xl text-white"></i>
+                    <i class="ri-building-line text-2xl text-white"></i>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Enterprise Digital Platforms</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">

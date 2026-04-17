@@ -1,10 +1,13 @@
 <!-- Header / Navigation -->
-<header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="{ 'bg-white/95 backdrop-blur-md shadow-lg': scrolled, 'bg-transparent': !scrolled }">
+<header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500" :class="{ 'bg-white/95 backdrop-blur-xl shadow-xl': scrolled, 'bg-transparent': !scrolled }" x-data="{ activeDropdown: null }">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
-            <a href="#" class="flex items-center gap-3">
-                <img src="{{ asset('transparentslogo/tranp-green.png') }}" alt="Glovin Limited" class="h-12 w-auto">
+            <a href="/" class="flex items-center gap-3 group">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-yellow-400 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                    <img src="{{ asset('transparentslogo/tranp-green.png') }}" alt="Glovin Limited" class="h-12 w-auto relative z-10 transform group-hover:scale-105 transition-transform duration-300">
+                </div>
                 <div class="hidden sm:block">
                     <span class="text-xl font-bold" :class="{ 'text-green-800': scrolled, 'text-white': !scrolled }">Glovin</span>
                     <span class="text-xs block -mt-1" :class="{ 'text-green-600': scrolled, 'text-green-200': !scrolled }">Limited</span>
@@ -12,22 +15,38 @@
             </a>
 
             <!-- Desktop Navigation -->
-            <nav class="hidden lg:flex items-center gap-8">
-                <a href="#hero" class="text-sm font-medium transition-colors hover:text-yellow-500" :class="{ 'text-gray-700': scrolled, 'text-white': !scrolled }">Home</a>
-                <a href="#about" class="text-sm font-medium transition-colors hover:text-yellow-500" :class="{ 'text-gray-700': scrolled, 'text-white': !scrolled }">About</a>
-                <a href="#services" class="text-sm font-medium transition-colors hover:text-yellow-500" :class="{ 'text-gray-700': scrolled, 'text-white': !scrolled }">Services</a>
-                <a href="#products" class="text-sm font-medium transition-colors hover:text-yellow-500" :class="{ 'text-gray-700': scrolled, 'text-white': !scrolled }">Products</a>
-                <a href="#why-us" class="text-sm font-medium transition-colors hover:text-yellow-500" :class="{ 'text-gray-700': scrolled, 'text-white': !scrolled }">Why Us</a>
-                <a href="#contact" class="text-sm font-medium transition-colors hover:text-yellow-500" :class="{ 'text-gray-700': scrolled, 'text-white': !scrolled }">Contact</a>
+            <nav class="hidden lg:flex items-center gap-1">
+                <a href="/" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Home</a>
+                
+                <!-- About Dropdown -->
+                <div class="relative" @mouseenter="activeDropdown = 'about'" @mouseleave="activeDropdown = null">
+                    <a href="/about" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105 flex items-center gap-1" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">
+                        About Us
+                        <i class="fas fa-chevron-down text-xs transition-transform duration-300" :class="{ 'rotate-180': activeDropdown === 'about' }"></i>
+                    </a>
+                    <div x-show="activeDropdown === 'about'" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-2" class="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden py-2">
+                        <a href="/about" class="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors">About Glovin</a>
+                        <a href="/about#vision-mission" class="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors">Vision & Mission</a>
+                        <a href="/about#values" class="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors">Core Values</a>
+                        <a href="/about#team" class="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors">Our Team</a>
+                        <a href="/about#why-choose-us" class="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors">Why Choose Us</a>
+                    </div>
+                </div>
+                
+                <a href="/solutions" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Solutions</a>
+                <a href="/industries" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Industries</a>
+                <a href="/products" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Products</a>
+                <a href="/projects" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Projects</a>
+                <a href="/blog" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Insights</a>
+                <a href="/careers" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Careers</a>
+                <a href="/contact" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Contact Us</a>
             </nav>
 
-            <!-- CTA Buttons -->
+            <!-- CTA Button Only -->
             <div class="hidden lg:flex items-center gap-4">
-                <a href="{{ route('login') }}" class="px-5 py-2.5 text-sm font-semibold rounded-lg border-2 transition-all" :class="{ 'border-green-600 text-green-700 hover:bg-green-600 hover:text-white': scrolled, 'border-white text-white hover:bg-white hover:text-green-800': !scrolled }">
-                    Sign In
-                </a>
-                <a href="{{ route('register') }}" class="px-5 py-2.5 text-sm font-semibold rounded-lg bg-gradient-to-r from-yellow-500 to-yellow-600 text-white hover:from-yellow-600 hover:to-yellow-700 transition-all shadow-lg hover:shadow-xl">
-                    Get Started
+                <a href="/demo" class="group px-6 py-2.5 text-sm font-bold rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-green-900 hover:from-yellow-300 hover:to-yellow-400 transition-all shadow-lg hover:shadow-yellow-400/50 flex items-center gap-2 transform hover:scale-105">
+                    <span>Get Started</span>
+                    <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                 </a>
             </div>
 
@@ -39,17 +58,21 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div x-show="mobileMenuOpen" x-transition class="lg:hidden bg-white border-t shadow-lg">
-        <div class="container mx-auto px-4 py-4 space-y-3">
-            <a href="#hero" class="block py-2 text-gray-700 hover:text-green-600 font-medium">Home</a>
-            <a href="#about" class="block py-2 text-gray-700 hover:text-green-600 font-medium">About</a>
-            <a href="#services" class="block py-2 text-gray-700 hover:text-green-600 font-medium">Services</a>
-            <a href="#products" class="block py-2 text-gray-700 hover:text-green-600 font-medium">Products</a>
-            <a href="#why-us" class="block py-2 text-gray-700 hover:text-green-600 font-medium">Why Us</a>
-            <a href="#contact" class="block py-2 text-gray-700 hover:text-green-600 font-medium">Contact</a>
-            <div class="pt-4 flex flex-col gap-3">
-                <a href="{{ route('login') }}" class="text-center py-2.5 rounded-lg border-2 border-green-600 text-green-700 font-semibold">Sign In</a>
-                <a href="{{ route('register') }}" class="text-center py-2.5 rounded-lg bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-semibold">Get Started</a>
+    <div x-show="mobileMenuOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 -translate-y-4" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-4" class="lg:hidden bg-white border-t shadow-2xl max-h-[80vh] overflow-y-auto">
+        <div class="container mx-auto px-4 py-6 space-y-2">
+            <a href="/" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Home</a>
+            <a href="/about" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">About Us</a>
+            <a href="/solutions" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Solutions</a>
+            <a href="/industries" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Industries</a>
+            <a href="/products" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Products</a>
+            <a href="/projects" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Projects / Case Studies</a>
+            <a href="/blog" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Insights / Blog</a>
+            <a href="/careers" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Careers</a>
+            <a href="/contact" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Contact Us</a>
+            <div class="pt-4 px-4">
+                <a href="/demo" class="block text-center py-3 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-green-900 font-bold">
+                    Get Started / Request Demo
+                </a>
             </div>
         </div>
     </div>

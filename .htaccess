@@ -1,6 +1,26 @@
 # Enable Rewrite Engine
 RewriteEngine On
 
+# Check for index.php in root directory first
+# If index.php exists in root, serve it directly
+# Otherwise, redirect everything to public/ folder (Laravel)
+
+# If index.php exists in root, handle it
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{DOCUMENT_ROOT}/index.php -f
+RewriteRule ^$ index.php [L]
+
+# If index.php exists and specific files are requested, serve from root
+RewriteCond %{DOCUMENT_ROOT}/index.php -f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [L]
+
+# If no index.php in root, redirect to public/ (Laravel standard)
+RewriteCond %{DOCUMENT_ROOT}/index.php !-f
+RewriteCond %{REQUEST_URI} !^public/
+RewriteRule ^(.*)$ public/$1 [L]
+
 # Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
@@ -13,7 +33,7 @@ RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^\.]+)$ $1.php [L]
 
-# Redirect index.php to /
+# Redirect index.php to / (only applies if index.php is in root)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index\.php [NC]
 RewriteRule ^index\.php$ / [L,R=301]
 

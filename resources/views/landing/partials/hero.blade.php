@@ -50,17 +50,17 @@
                         </div>
                         <div class="carousel-item">
                             <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
-                                <i class="fas fa-cloud mr-2"></i>Cloud Solutions
+                                <i class="ri-cloud-line mr-2"></i>Cloud Solutions
                             </span>
                         </div>
                         <div class="carousel-item">
                             <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
-                                <i class="fas fa-chart-line mr-2"></i>Data Analytics
+                                <i class="ri-line-chart-line mr-2"></i>Data Analytics
                             </span>
                         </div>
                         <div class="carousel-item">
                             <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
-                                <i class="fas fa-brain mr-2"></i>AI & Machine Learning
+                                <i class="ri-brain-line mr-2"></i>AI & Machine Learning
                             </span>
                         </div>
                     </div>

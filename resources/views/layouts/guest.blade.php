@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Emas - Electronic Marking System</title>
-    <link rel="icon" type="image/png" href="{{ asset('Coat_of_arms_of_Tanzania.svg.png') }}">
+    <title>Glovin Limited - Secure Digital Solutions</title>
+    <link rel="icon" type="image/png" href="{{ asset('logo/GLOVIN-02.png') }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -235,23 +235,23 @@
                 <!-- Logo -->
                 <div class="mb-6">
                     <div class="emas-logo">
-                        <img src="{{ asset('Coat_of_arms_of_Tanzania.svg.png') }}" 
-                             alt="Emas Logo"
+                        <img src="{{ asset('logo/GLOVIN-02.png') }}" 
+                             alt="Glovin Logo"
                              onerror="this.style.display='none'; this.parentNode.innerHTML='<i class=\'fas fa-shield-alt text-5xl text-green-700\'></i>'">
                     </div>
                 </div>
-                
+
                 <!-- Title Section -->
                 <div>
                     <h1 class="text-2xl font-bold text-green-800 mb-1">
-                        Emas
+                        Glovin Limited
                     </h1>
                     <p class="text-xs font-semibold text-green-700 tracking-wide uppercase mb-3">
-                        Electronic Marking System
+                        Technology Solutions
                     </p>
                     <div class="divider" style="background: linear-gradient(90deg, #16a34a 0%, #ca8a04 50%, #16a34a 100%);"></div>
                     <p class="text-green-800 text-sm leading-relaxed">
-                        Sign in to continue your application for the position you registered for.
+                        Secure, scalable, and intelligent digital solutions across Africa. We deliver software development, cybersecurity, and ICT infrastructure services.
                     </p>
                 </div>
             </div>
@@ -259,7 +259,10 @@
             <!-- Footer -->
             <div>
                 <p class="text-xs text-green-700 font-medium">
-                    © {{ date('Y') }} Emas
+                    © {{ date('Y') }} Glovin Limited
+                </p>
+                <p class="text-xs text-green-600 mt-1">
+                    info@glovin.co.tz
                 </p>
             </div>
         </div>

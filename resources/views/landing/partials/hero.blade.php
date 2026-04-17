@@ -27,8 +27,20 @@
                 
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     Secure & Scalable <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200 animate-gradient bg-[length:200%_auto]">Digital Solutions</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Digital Solutions</span>
                 </h1>
+                
+                <!-- Sliding Text Menu -->
+                <div class="h-12 overflow-hidden mb-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="sliding-text-container">
+                        <div class="sliding-text text-xl sm:text-2xl font-bold text-yellow-400">Enterprise Software</div>
+                        <div class="sliding-text text-xl sm:text-2xl font-bold text-green-400">Cybersecurity</div>
+                        <div class="sliding-text text-xl sm:text-2xl font-bold text-yellow-400">ICT Infrastructure</div>
+                        <div class="sliding-text text-xl sm:text-2xl font-bold text-green-400">Cloud Solutions</div>
+                        <div class="sliding-text text-xl sm:text-2xl font-bold text-yellow-400">Data Analytics</div>
+                        <div class="sliding-text text-xl sm:text-2xl font-bold text-green-400">AI & Machine Learning</div>
+                    </div>
+                </div>
                 
                 <p class="text-lg text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     Glovin Limited delivers innovative technology solutions across Africa. From cybersecurity to ICT infrastructure, we empower governments and enterprises with secure, intelligent systems.

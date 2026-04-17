@@ -6,6 +6,18 @@ Route::get('/', function () {
     return view('landing.landing');
 });
 
+// Landing Pages Routes
+Route::get('/about', function () { return view('pages.about'); })->name('about');
+Route::get('/solutions', function () { return view('pages.solutions'); })->name('solutions');
+Route::get('/industries', function () { return view('pages.industries'); })->name('industries');
+Route::get('/products', function () { return view('pages.products'); })->name('products');
+Route::get('/projects', function () { return view('pages.projects'); })->name('projects');
+Route::get('/blog', function () { return view('pages.blog'); })->name('blog');
+Route::get('/blog/{slug}', function ($slug) { return view('pages.blog-detail', compact('slug')); })->name('blog.detail');
+Route::get('/careers', function () { return view('pages.careers'); })->name('careers');
+Route::get('/contact', function () { return view('pages.contact'); })->name('contact');
+Route::get('/demo', function () { return view('pages.demo'); })->name('demo');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

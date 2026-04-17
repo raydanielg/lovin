@@ -35,17 +35,17 @@
                     <div class="text-carousel">
                         <div class="carousel-item active">
                             <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
-                                <i class="fas fa-code mr-2"></i>Enterprise Software
+                                <i class="ri-code-line mr-2"></i>Enterprise Software
                             </span>
                         </div>
                         <div class="carousel-item">
                             <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
-                                <i class="fas fa-shield-alt mr-2"></i>Cybersecurity
+                                <i class="ri-shield-check-line mr-2"></i>Cybersecurity
                             </span>
                         </div>
                         <div class="carousel-item">
                             <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
-                                <i class="fas fa-network-wired mr-2"></i>ICT Infrastructure
+                                <i class="ri-server-line mr-2"></i>ICT Infrastructure
                             </span>
                         </div>
                         <div class="carousel-item">

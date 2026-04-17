@@ -39,7 +39,8 @@
                 <a href="/products" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Products</a>
                 <a href="/projects" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Projects</a>
                 <a href="/blog" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Insights</a>
-                <a href="/careers" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Careers</a>
+                <!-- Careers link hidden for now -->
+                <!-- <a href="/careers" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Careers</a> -->
                 <a href="/contact" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Contact Us</a>
             </nav>
 
@@ -71,7 +72,8 @@
             <a href="/products" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Products</a>
             <a href="/projects" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Projects / Case Studies</a>
             <a href="/blog" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Insights / Blog</a>
-            <a href="/careers" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Careers</a>
+            <!-- Careers link hidden for now -->
+            <!-- <a href="/careers" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Careers</a> -->
             <a href="/contact" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Contact Us</a>
             <div class="pt-4 px-4 space-y-3">
                 <a href="/consultation" class="block text-center py-3 rounded-full bg-gradient-to-r from-green-500 to-green-600 text-white font-bold">

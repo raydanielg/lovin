@@ -692,7 +692,7 @@
                                         <input type="radio" name="consultation_type" value="digital_transformation" x-model="form.consultation_type" class="hidden" required>
                                         <div class="flex items-start gap-4">
                                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center flex-shrink-0">
-                                                <i class="fas fa-digital-tachograph text-white text-xl"></i>
+                                                <i class="ri-dashboard-3-line text-white text-xl"></i>
                                             </div>
                                             <div>
                                                 <h4 class="font-bold text-gray-900 mb-1">Digital Transformation</h4>
@@ -709,7 +709,7 @@
                                         <input type="radio" name="consultation_type" value="cybersecurity" x-model="form.consultation_type" class="hidden">
                                         <div class="flex items-start gap-4">
                                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center flex-shrink-0">
-                                                <i class="fas fa-shield-alt text-white text-xl"></i>
+                                                <i class="ri-shield-check-line text-white text-xl"></i>
                                             </div>
                                             <div>
                                                 <h4 class="font-bold text-gray-900 mb-1">Cybersecurity Assessment</h4>
@@ -726,7 +726,7 @@
                                         <input type="radio" name="consultation_type" value="cloud_migration" x-model="form.consultation_type" class="hidden">
                                         <div class="flex items-start gap-4">
                                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center flex-shrink-0">
-                                                <i class="fas fa-cloud text-white text-xl"></i>
+                                                <i class="ri-cloud-line text-white text-xl"></i>
                                             </div>
                                             <div>
                                                 <h4 class="font-bold text-gray-900 mb-1">Cloud Migration</h4>
@@ -743,7 +743,7 @@
                                         <input type="radio" name="consultation_type" value="software_development" x-model="form.consultation_type" class="hidden">
                                         <div class="flex items-start gap-4">
                                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center flex-shrink-0">
-                                                <i class="fas fa-code text-white text-xl"></i>
+                                                <i class="ri-code-line text-white text-xl"></i>
                                             </div>
                                             <div>
                                                 <h4 class="font-bold text-gray-900 mb-1">Custom Software Development</h4>
@@ -760,7 +760,7 @@
                                         <input type="radio" name="consultation_type" value="data_analytics" x-model="form.consultation_type" class="hidden">
                                         <div class="flex items-start gap-4">
                                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center flex-shrink-0">
-                                                <i class="fas fa-chart-line text-white text-xl"></i>
+                                                <i class="ri-line-chart-line text-white text-xl"></i>
                                             </div>
                                             <div>
                                                 <h4 class="font-bold text-gray-900 mb-1">Data Analytics & AI</h4>
@@ -777,7 +777,7 @@
                                         <input type="radio" name="consultation_type" value="infrastructure" x-model="form.consultation_type" class="hidden">
                                         <div class="flex items-start gap-4">
                                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center flex-shrink-0">
-                                                <i class="fas fa-server text-white text-xl"></i>
+                                                <i class="ri-server-line text-white text-xl"></i>
                                             </div>
                                             <div>
                                                 <h4 class="font-bold text-gray-900 mb-1">ICT Infrastructure</h4>

@@ -72,7 +72,10 @@
             <a href="/blog" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Insights / Blog</a>
             <a href="/careers" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Careers</a>
             <a href="/contact" class="block py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg font-medium transition-all">Contact Us</a>
-            <div class="pt-4 px-4">
+            <div class="pt-4 px-4 space-y-3">
+                <a href="/consultation" class="block text-center py-3 rounded-full bg-gradient-to-r from-green-500 to-green-600 text-white font-bold">
+                    <i class="fas fa-calendar-check mr-2"></i>Book Consultation
+                </a>
                 <a href="/demo" class="block text-center py-3 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-green-900 font-bold">
                     Get Started / Request Demo
                 </a>

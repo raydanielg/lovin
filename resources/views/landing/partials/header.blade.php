@@ -42,8 +42,11 @@
                 <a href="/contact" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">Contact Us</a>
             </nav>
 
-            <!-- CTA Button Only -->
-            <div class="hidden lg:flex items-center gap-4">
+            <!-- CTA Buttons -->
+            <div class="hidden lg:flex items-center gap-3">
+                <a href="/consultation" class="px-4 py-2 text-sm font-medium text-green-600 hover:text-green-700 transition-colors" :class="{ 'text-green-600': scrolled, 'text-white hover:text-yellow-300': !scrolled }">
+                    <i class="fas fa-calendar-check mr-1"></i>Book Consultation
+                </a>
                 <a href="/demo" class="group px-6 py-2.5 text-sm font-bold rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-green-900 hover:from-yellow-300 hover:to-yellow-400 transition-all shadow-lg hover:shadow-yellow-400/50 flex items-center gap-2 transform hover:scale-105">
                     <span>Get Started</span>
                     <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>

@@ -30,15 +30,39 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Digital Solutions</span>
                 </h1>
                 
-                <!-- Sliding Text Menu -->
-                <div class="h-12 overflow-hidden mb-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                    <div class="sliding-text-container">
-                        <div class="sliding-text text-xl sm:text-2xl font-bold text-yellow-400">Enterprise Software</div>
-                        <div class="sliding-text text-xl sm:text-2xl font-bold text-green-400">Cybersecurity</div>
-                        <div class="sliding-text text-xl sm:text-2xl font-bold text-yellow-400">ICT Infrastructure</div>
-                        <div class="sliding-text text-xl sm:text-2xl font-bold text-green-400">Cloud Solutions</div>
-                        <div class="sliding-text text-xl sm:text-2xl font-bold text-yellow-400">Data Analytics</div>
-                        <div class="sliding-text text-xl sm:text-2xl font-bold text-green-400">AI & Machine Learning</div>
+                <!-- Sliding Text Menu - Animated Text Carousel -->
+                <div class="h-14 overflow-hidden mb-6 relative" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="text-carousel">
+                        <div class="carousel-item active">
+                            <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
+                                <i class="fas fa-code mr-2"></i>Enterprise Software
+                            </span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
+                                <i class="fas fa-shield-alt mr-2"></i>Cybersecurity
+                            </span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
+                                <i class="fas fa-network-wired mr-2"></i>ICT Infrastructure
+                            </span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
+                                <i class="fas fa-cloud mr-2"></i>Cloud Solutions
+                            </span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent">
+                                <i class="fas fa-chart-line mr-2"></i>Data Analytics
+                            </span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
+                                <i class="fas fa-brain mr-2"></i>AI & Machine Learning
+                            </span>
+                        </div>
                     </div>
                 </div>
                 

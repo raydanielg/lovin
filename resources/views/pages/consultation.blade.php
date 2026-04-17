@@ -469,7 +469,7 @@
                                         <label class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
                                         <div class="relative">
                                             <span class="input-icon absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
-                                                <i class="fas fa-user"></i>
+                                                <i class="ri-user-line"></i>
                                             </span>
                                             <input type="text" 
                                                    name="first_name" 
@@ -488,7 +488,7 @@
                                         <label class="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
                                         <div class="relative">
                                             <span class="input-icon absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
-                                                <i class="fas fa-user"></i>
+                                                <i class="ri-user-line"></i>
                                             </span>
                                             <input type="text" 
                                                    name="last_name" 
@@ -507,7 +507,7 @@
                                         <label class="block text-sm font-medium text-gray-700 mb-2">Work Email *</label>
                                         <div class="relative">
                                             <span class="input-icon absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
-                                                <i class="fas fa-envelope"></i>
+                                                <i class="ri-mail-line"></i>
                                             </span>
                                             <input type="email" 
                                                    name="email" 
@@ -526,7 +526,7 @@
                                         <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
                                         <div class="relative">
                                             <span class="input-icon absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
-                                                <i class="fas fa-phone"></i>
+                                                <i class="ri-phone-line"></i>
                                             </span>
                                             <input type="tel" 
                                                    name="phone" 
@@ -547,7 +547,7 @@
                                             @click="nextStep()"
                                             class="px-8 py-4 rounded-xl bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold hover:from-green-700 hover:to-green-800 transition-all shadow-lg flex items-center gap-2 transform hover:scale-105">
                                         Next Step
-                                        <i class="fas fa-arrow-right"></i>
+                                        <i class="ri-arrow-right-line"></i>
                                     </button>
                                 </div>
                             </div>
@@ -675,7 +675,7 @@
                                             @click="nextStep()"
                                             class="px-8 py-4 rounded-xl bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold hover:from-green-700 hover:to-green-800 transition-all shadow-lg flex items-center gap-2 transform hover:scale-105">
                                         Next Step
-                                        <i class="fas fa-arrow-right"></i>
+                                        <i class="ri-arrow-right-line"></i>
                                     </button>
                                 </div>
                             </div>
@@ -813,7 +813,7 @@
                                             @click="nextStep()"
                                             class="px-8 py-4 rounded-xl bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold hover:from-green-700 hover:to-green-800 transition-all shadow-lg flex items-center gap-2 transform hover:scale-105">
                                         Next Step
-                                        <i class="fas fa-arrow-right"></i>
+                                        <i class="ri-arrow-right-line"></i>
                                     </button>
                                 </div>
                             </div>

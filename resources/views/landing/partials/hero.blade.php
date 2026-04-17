@@ -202,7 +202,7 @@
                         <div class="absolute -top-6 -right-6 bg-white rounded-xl p-3 shadow-xl transform hover:scale-110 transition-all duration-300 animate-float-card" style="animation-duration: 4s;">
                             <div class="flex items-center gap-2">
                                 <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
-                                    <i class="fas fa-lock text-white text-xs"></i>
+                                    <i class="ri-lock-line text-white text-xs"></i>
                                 </div>
                                 <div>
                                     <div class="text-xs text-gray-500">Security</div>
@@ -214,7 +214,7 @@
                         <div class="absolute -bottom-6 -left-6 bg-white rounded-xl p-3 shadow-xl transform hover:scale-110 transition-all duration-300 animate-float-card" style="animation-duration: 5s;">
                             <div class="flex items-center gap-2">
                                 <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center">
-                                    <i class="fas fa-bolt text-white text-xs"></i>
+                                    <i class="ri-flashlight-line text-white text-xs"></i>
                                 </div>
                                 <div>
                                     <div class="text-xs text-gray-500">Speed</div>

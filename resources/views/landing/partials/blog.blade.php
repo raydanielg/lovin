@@ -4,7 +4,7 @@
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-green-200 mb-6">
-                <i class="fas fa-newspaper text-green-600"></i>
+                <i class="bi bi-newspaper text-green-600"></i>
                 <span class="text-green-700 text-sm font-medium">Latest News</span>
             </div>
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Blog & Insights</h2>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="p-6">
                     <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar text-xs"></i>
+                        <i class="bi bi-calendar3 text-xs"></i>
                         <span>Jan 15, 2026</span>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3 hover:text-green-600 transition-colors">
@@ -30,7 +30,7 @@
                     </h3>
                     <p class="text-gray-600 text-sm mb-4">Exploring emerging threats and innovative solutions protecting financial institutions across the continent.</p>
                     <a href="#" class="text-green-600 font-medium text-sm hover:text-green-700 flex items-center gap-1">
-                        Read More <i class="fas fa-arrow-right text-xs"></i>
+                        Read More <i class="bi bi-arrow-right text-xs"></i>
                     </a>
                 </div>
             </article>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="p-6">
                     <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar text-xs"></i>
+                        <i class="bi bi-calendar3 text-xs"></i>
                         <span>Jan 10, 2026</span>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3 hover:text-green-600 transition-colors">
@@ -53,7 +53,7 @@
                     </h3>
                     <p class="text-gray-600 text-sm mb-4">How HMIS and EMR systems are revolutionizing patient care across the continent.</p>
                     <a href="#" class="text-green-600 font-medium text-sm hover:text-green-700 flex items-center gap-1">
-                        Read More <i class="fas fa-arrow-right text-xs"></i>
+                        Read More <i class="bi bi-arrow-right text-xs"></i>
                     </a>
                 </div>
             </article>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="p-6">
                     <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-                        <i class="fas fa-calendar text-xs"></i>
+                        <i class="bi bi-calendar3 text-xs"></i>
                         <span>Jan 5, 2026</span>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3 hover:text-green-600 transition-colors">
@@ -76,7 +76,7 @@
                     </h3>
                     <p class="text-gray-600 text-sm mb-4">Understanding how AI-powered credit scoring is transforming financial inclusion in Africa.</p>
                     <a href="#" class="text-green-600 font-medium text-sm hover:text-green-700 flex items-center gap-1">
-                        Read More <i class="fas fa-arrow-right text-xs"></i>
+                        Read More <i class="bi bi-arrow-right text-xs"></i>
                     </a>
                 </div>
             </article>
@@ -86,7 +86,7 @@
         <div class="text-center mt-12" data-aos="fade-up">
             <a href="#" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl border-2 border-green-600 text-green-700 font-semibold hover:bg-green-600 hover:text-white transition-all">
                 View All Articles
-                <i class="fas fa-arrow-right"></i>
+                <i class="bi bi-arrow-right"></i>
             </a>
         </div>
     </div>

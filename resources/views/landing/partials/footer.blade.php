@@ -17,13 +17,13 @@
                 </p>
                 <div class="flex gap-3">
                     <a href="#" class="w-9 h-9 rounded-lg bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-all">
-                        <i class="fab fa-linkedin-in text-sm"></i>
+                        <i class="bi bi-linkedin text-sm"></i>
                     </a>
                     <a href="#" class="w-9 h-9 rounded-lg bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-all">
-                        <i class="fab fa-twitter text-sm"></i>
+                        <i class="bi bi-twitter-x text-sm"></i>
                     </a>
                     <a href="#" class="w-9 h-9 rounded-lg bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-all">
-                        <i class="fab fa-facebook-f text-sm"></i>
+                        <i class="bi bi-facebook text-sm"></i>
                     </a>
                 </div>
             </div>
@@ -57,19 +57,19 @@
                 <h4 class="text-lg font-bold mb-6">Contact</h4>
                 <ul class="space-y-4">
                     <li class="flex items-start gap-3">
-                        <i class="fas fa-map-marker-alt text-green-400 mt-1"></i>
+                        <i class="bi bi-geo-alt-fill text-green-400 mt-1"></i>
                         <span class="text-gray-400 text-sm">Dar es Salaam, Tanzania</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <i class="fas fa-envelope text-green-400 mt-1"></i>
+                        <i class="bi bi-envelope-fill text-green-400 mt-1"></i>
                         <a href="mailto:info@glovin.co.tz" class="text-gray-400 hover:text-green-400 transition-colors text-sm">info@glovin.co.tz</a>
                     </li>
                     <li class="flex items-start gap-3">
-                        <i class="fas fa-phone text-green-400 mt-1"></i>
+                        <i class="bi bi-telephone-fill text-green-400 mt-1"></i>
                         <a href="tel:+255718637328" class="text-gray-400 hover:text-green-400 transition-colors text-sm">+255 718 637 328</a>
                     </li>
                     <li class="flex items-start gap-3">
-                        <i class="fas fa-globe text-green-400 mt-1"></i>
+                        <i class="bi bi-globe text-green-400 mt-1"></i>
                         <a href="https://www.glovin.co.tz" class="text-gray-400 hover:text-green-400 transition-colors text-sm">www.glovin.co.tz</a>
                     </li>
                 </ul>

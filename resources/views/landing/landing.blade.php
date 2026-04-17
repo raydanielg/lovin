@@ -505,6 +505,11 @@
                 btn.style.transform = 'translate(0, 0)';
             });
         });
+        
+        // Initialize Lucide Icons
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
     </script>
 </body>
 </html>

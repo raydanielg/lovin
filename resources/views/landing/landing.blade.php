@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Glovin Limited - Delivering secure, scalable, and intelligent digital solutions across Africa. Specializing in software development, cybersecurity, and ICT infrastructure.">
     <title>Glovin Limited - Secure Digital Solutions | Technology Solutions Africa</title>
-    <link rel="icon" type="image/png" href="{{ asset('transparentslogo/tranp-green.png') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('transparentslogo/GLOVIN-06.svg') }}">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

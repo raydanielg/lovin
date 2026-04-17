@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Glovin Limited - Secure Digital Solutions</title>
-    <link rel="icon" type="image/png" href="{{ asset('logo/GLOVIN-02.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('transparentslogo/tranp-green.png') }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -235,7 +235,7 @@
                 <!-- Logo -->
                 <div class="mb-6">
                     <div class="emas-logo">
-                        <img src="{{ asset('logo/GLOVIN-02.png') }}" 
+                        <img src="{{ asset('transparentslogo/tranp-green.png') }}"
                              alt="Glovin Logo"
                              onerror="this.style.display='none'; this.parentNode.innerHTML='<i class=\'fas fa-shield-alt text-5xl text-green-700\'></i>'">
                     </div>

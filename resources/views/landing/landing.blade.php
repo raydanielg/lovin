@@ -4,9 +4,160 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="Glovin Limited - Delivering secure, scalable, and intelligent digital solutions across Africa. Specializing in software development, cybersecurity, and ICT infrastructure.">
-    <title>Glovin Limited - Secure Digital Solutions | Technology Solutions Africa</title>
+    <meta name="description" content="Glovin Limited - Delivering secure, scalable, and intelligent digital solutions across Africa. Specializing in software development, cybersecurity, HMIS, EMR, CCIP, and ICT infrastructure in Tanzania and Dubai.">
+    <meta name="keywords" content="Glovin Limited, Technology Solutions Africa, Software Development Tanzania, Cybersecurity Tanzania, HMIS, EMR, CCIP, Digital Solutions Dubai, ICT Infrastructure, Hospital Management System, Electronic Medical Records, Credit Intelligence Platform, FinTech Africa, HealthTech Tanzania">
+    <meta name="author" content="Glovin Limited">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.glovin.co.tz/">
+    
+    <title>Glovin Limited | Secure Digital Solutions & Technology Services Africa</title>
     <link rel="icon" type="image/svg+xml" href="{{ asset('transparentslogo/GLOVIN-06.svg') }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.glovin.co.tz/">
+    <meta property="og:title" content="Glovin Limited | Secure Digital Solutions & Technology Services Africa">
+    <meta property="og:description" content="Delivering secure, scalable, and intelligent digital solutions across Africa. Software development, cybersecurity, HMIS, EMR, CCIP, and ICT infrastructure experts in Tanzania & Dubai.">
+    <meta property="og:image" content="https://www.glovin.co.tz/logo/GLOVIN-02.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Glovin Limited - Technology Solutions Africa">
+    <meta property="og:site_name" content="Glovin Limited">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.glovin.co.tz/">
+    <meta property="twitter:title" content="Glovin Limited | Secure Digital Solutions & Technology Services Africa">
+    <meta property="twitter:description" content="Delivering secure, scalable, and intelligent digital solutions across Africa. Software development, cybersecurity, HMIS, EMR, CCIP, and ICT infrastructure experts.">
+    <meta property="twitter:image" content="https://www.glovin.co.tz/logo/GLOVIN-02.png">
+    <meta property="twitter:image:alt" content="Glovin Limited - Technology Solutions Africa">
+    
+    <!-- LinkedIn -->
+    <meta property="linkedin:title" content="Glovin Limited | Secure Digital Solutions & Technology Services Africa">
+    <meta property="linkedin:description" content="Delivering secure, scalable, and intelligent digital solutions across Africa. Software development, cybersecurity, HMIS, EMR, CCIP, and ICT infrastructure.">
+    <meta property="linkedin:image" content="https://www.glovin.co.tz/logo/GLOVIN-02.png">
+    
+    <!-- WhatsApp -->
+    <meta property="og:image:secure_url" content="https://www.glovin.co.tz/logo/GLOVIN-02.png">
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Glovin Limited",
+        "alternateName": "Glovin",
+        "url": "https://www.glovin.co.tz",
+        "logo": "https://www.glovin.co.tz/logo/GLOVIN-02.png",
+        "description": "Glovin Limited delivers secure, scalable, and intelligent digital solutions across Africa. Specializing in software development, cybersecurity, HMIS, EMR, CCIP, and ICT infrastructure.",
+        "foundingDate": "2014",
+        "founders": [
+            {
+                "@type": "Person",
+                "name": "Glovin Leadership Team"
+            }
+        ],
+        "address": [
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Dar es Salaam",
+                "addressCountry": "Tanzania",
+                "addressRegion": "Dar es Salaam"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Dubai",
+                "addressCountry": "UAE"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+255-718-637-328",
+            "contactType": "customer service",
+            "availableLanguage": ["English", "Swahili"],
+            "areaServed": ["TZ", "AE", "KE", "UG", "RW", "BI", "MW", "ZM"]
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/glovin-limited",
+            "https://twitter.com/glovintz",
+            "https://www.facebook.com/glovintz"
+        ],
+        "industry": [
+            "Software Development",
+            "Cybersecurity",
+            "Healthcare Technology",
+            "Financial Technology",
+            "ICT Infrastructure"
+        ],
+        "serviceType": [
+            "Custom Software Development",
+            "Cybersecurity Solutions",
+            "Hospital Management Systems (HMIS)",
+            "Electronic Medical Records (EMR/EHR)",
+            "Credit Intelligence Platform (CCIP)",
+            "Track & Trace Systems",
+            "ICT Infrastructure"
+        ]
+    }
+    </script>
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Glovin Limited",
+        "image": "https://www.glovin.co.tz/logo/GLOVIN-02.png",
+        "@id": "https://www.glovin.co.tz",
+        "url": "https://www.glovin.co.tz",
+        "telephone": "+255718637328",
+        "email": "info@glovin.co.tz",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Dar es Salaam",
+            "addressLocality": "Dar es Salaam",
+            "addressRegion": "Dar es Salaam",
+            "postalCode": "",
+            "addressCountry": "TZ"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -6.7924,
+            "longitude": 39.2083
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+            }
+        ],
+        "priceRange": "$$$",
+        "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+        "currenciesAccepted": "TZS, USD, EUR"
+    }
+    </script>
+    
+    <!-- Website Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Glovin Limited",
+        "url": "https://www.glovin.co.tz",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.glovin.co.tz/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

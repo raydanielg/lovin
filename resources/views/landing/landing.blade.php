@@ -14,8 +14,8 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <!-- RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     
     <!-- Alpine.js -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -506,10 +506,7 @@
             });
         });
         
-        // Initialize Lucide Icons
-        if (typeof lucide !== 'undefined') {
-            lucide.createIcons();
-        }
+        // Icons are auto-loaded via RemixIcon CSS classes
     </script>
 </body>
 </html>

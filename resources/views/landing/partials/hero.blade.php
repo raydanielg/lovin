@@ -73,10 +73,10 @@
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                     <a href="/solutions" class="group px-8 py-4 rounded-xl bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-semibold text-lg hover:from-yellow-600 hover:to-yellow-700 transition-all shadow-lg hover:shadow-yellow-500/50 flex items-center justify-center gap-2 transform hover:scale-105 hover:-translate-y-1">
                         <span>Explore Services</span>
-                        <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+                        <i class="ri-arrow-right-line group-hover:translate-x-2 transition-transform"></i>
                     </a>
                     <a href="/demo" class="group px-8 py-4 rounded-xl border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 hover:border-white/50 transition-all flex items-center justify-center gap-2 transform hover:scale-105">
-                        <i class="fas fa-play-circle group-hover:scale-110 transition-transform"></i>
+                        <i class="ri-play-circle-line group-hover:scale-110 transition-transform"></i>
                         <span>Watch Demo</span>
                     </a>
                 </div>

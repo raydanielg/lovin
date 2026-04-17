@@ -3,14 +3,15 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
-            <a href="/" class="flex items-center gap-3 group">
+            <a href="/" class="flex items-center gap-2 group">
                 <div class="relative">
-                    <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-yellow-400 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-                    <img src="{{ asset('transparentslogo/tranp-green.png') }}" alt="Glovin Limited" class="h-12 w-auto relative z-10 transform group-hover:scale-105 transition-transform duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-yellow-400 rounded-full blur opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
+                    <img src="{{ asset('transparentslogo/GLOVIN-06.svg') }}" alt="G" class="h-10 w-auto relative z-10 transform group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 drop-shadow-lg">
                 </div>
-                <div class="hidden sm:block">
-                    <span class="text-xl font-bold" :class="{ 'text-green-800': scrolled, 'text-white': !scrolled }">Glovin</span>
-                    <span class="text-xs block -mt-1" :class="{ 'text-green-600': scrolled, 'text-green-200': !scrolled }">Limited</span>
+                <div class="flex items-baseline">
+                    <span class="text-2xl font-extrabold tracking-tight" :class="{ 'text-green-700': scrolled, 'text-white': !scrolled }">G</span>
+                    <span class="text-2xl font-bold tracking-wide" :class="{ 'text-gray-800': scrolled, 'text-white/90': !scrolled }">lovin</span>
+                    <span class="ml-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded" :class="{ 'bg-green-600 text-white': scrolled, 'bg-yellow-400 text-green-900': !scrolled }">Ltd</span>
                 </div>
             </a>
 

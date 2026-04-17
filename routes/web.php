@@ -18,6 +18,10 @@ Route::get('/careers', function () { return view('pages.careers'); })->name('car
 Route::get('/contact', function () { return view('pages.contact'); })->name('contact');
 Route::get('/demo', function () { return view('pages.demo'); })->name('demo');
 
+// Consultation Routes
+Route::get('/consultation', function () { return view('pages.consultation'); })->name('consultation');
+Route::post('/consultation', [App\Http\Controllers\ConsultationController::class, 'store'])->name('consultation.store');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

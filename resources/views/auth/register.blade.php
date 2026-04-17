@@ -114,9 +114,9 @@
     <!-- Help Text -->
     <div class="text-center pt-1">
         <p class="text-xs text-gray-500">
-            Need help? Contact us at 
-            <a href="mailto:info@emas.co.tz" class="link-green text-xs">
-                info@emas.co.tz
+            Need help? Contact us at
+            <a href="mailto:info@glovin.co.tz" class="link-green text-xs">
+                info@glovin.co.tz
             </a>
         </p>
     </div>

@@ -563,7 +563,7 @@
                                         <label class="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
                                         <div class="relative">
                                             <span class="input-icon absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
-                                                <i class="fas fa-building"></i>
+                                                <i class="ri-building-line"></i>
                                             </span>
                                             <input type="text" 
                                                    name="company_name" 
@@ -578,7 +578,7 @@
                                         <label class="block text-sm font-medium text-gray-700 mb-2">Job Title</label>
                                         <div class="relative">
                                             <span class="input-icon absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
-                                                <i class="fas fa-briefcase"></i>
+                                                <i class="ri-briefcase-line"></i>
                                             </span>
                                             <input type="text" 
                                                    name="job_title" 
@@ -597,7 +597,7 @@
                                                 <input type="radio" name="company_size" value="startup" x-model="form.company_size" class="hidden" required>
                                                 <div class="flex items-center gap-3">
                                                     <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
-                                                        <i class="fas fa-rocket text-green-600"></i>
+                                                        <i class="ri-rocket-line"></i>
                                                     </div>
                                                     <div>
                                                         <div class="font-semibold text-gray-900">Startup</div>
@@ -614,7 +614,7 @@
                                                 <input type="radio" name="company_size" value="sme" x-model="form.company_size" class="hidden">
                                                 <div class="flex items-center gap-3">
                                                     <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-yellow-100 to-yellow-200 flex items-center justify-center">
-                                                        <i class="fas fa-store text-yellow-600"></i>
+                                                        <i class="ri-store-2-line"></i>
                                                     </div>
                                                     <div>
                                                         <div class="font-semibold text-gray-900">SME</div>
@@ -648,7 +648,7 @@
                                                 <input type="radio" name="company_size" value="government" x-model="form.company_size" class="hidden">
                                                 <div class="flex items-center gap-3">
                                                     <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center">
-                                                        <i class="fas fa-landmark text-purple-600"></i>
+                                                        <i class="ri-government-line"></i>
                                                     </div>
                                                     <div>
                                                         <div class="font-semibold text-gray-900">Government</div>
@@ -668,7 +668,7 @@
                                     <button type="button" 
                                             @click="prevStep()"
                                             class="px-6 py-4 rounded-xl border-2 border-gray-300 text-gray-700 font-semibold hover:border-green-500 hover:text-green-600 transition-all flex items-center gap-2">
-                                        <i class="fas fa-arrow-left"></i>
+                                        <i class="ri-arrow-left-line"></i>
                                         Back
                                     </button>
                                     <button type="button" 
@@ -806,7 +806,7 @@
                                     <button type="button" 
                                             @click="prevStep()"
                                             class="px-6 py-4 rounded-xl border-2 border-gray-300 text-gray-700 font-semibold hover:border-green-500 hover:text-green-600 transition-all flex items-center gap-2">
-                                        <i class="fas fa-arrow-left"></i>
+                                        <i class="ri-arrow-left-line"></i>
                                         Back
                                     </button>
                                     <button type="button" 
@@ -921,7 +921,7 @@
                                     <button type="button" 
                                             @click="prevStep()"
                                             class="px-6 py-4 rounded-xl border-2 border-gray-300 text-gray-700 font-semibold hover:border-green-500 hover:text-green-600 transition-all flex items-center gap-2">
-                                        <i class="fas fa-arrow-left"></i>
+                                        <i class="ri-arrow-left-line"></i>
                                         Back
                                     </button>
                                     <button type="submit" 

@@ -4,7 +4,7 @@
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-50 border border-green-200 mb-6">
-                <i class="bi fa-briefcase text-green-600"></i>
+                <i class="bi bi-briefcase text-green-600"></i>
                 <span class="text-green-700 text-sm font-medium">Our Work</span>
             </div>
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Case Studies & Projects</h2>
@@ -25,11 +25,11 @@
                     <p class="text-gray-600 text-sm mb-4">Implemented HMIS across 50+ hospitals, improving patient care coordination and reducing administrative overhead by 40%.</p>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2 text-sm text-gray-500">
-                            <i class="bi fa-map-marker-alt"></i>
+                            <i class="bi bi-map-marker-alt"></i>
                             <span>Tanzania</span>
                         </div>
                         <a href="#contact" class="text-green-600 font-medium text-sm hover:text-green-700 flex items-center gap-1">
-                            Read More <i class="bi fa-arrow-right text-xs"></i>
+                            Read More <i class="bi bi-arrow-right text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -48,11 +48,11 @@
                     <p class="text-gray-600 text-sm mb-4">Deployed CCIP for a major bank, resulting in 60% faster loan processing and 35% reduction in default rates.</p>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2 text-sm text-gray-500">
-                            <i class="bi fa-map-marker-alt"></i>
+                            <i class="bi bi-map-marker-alt"></i>
                             <span>East Africa</span>
                         </div>
                         <a href="#contact" class="text-green-600 font-medium text-sm hover:text-green-700 flex items-center gap-1">
-                            Read More <i class="bi fa-arrow-right text-xs"></i>
+                            Read More <i class="bi bi-arrow-right text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -71,11 +71,11 @@
                     <p class="text-gray-600 text-sm mb-4">Built comprehensive tax and revenue collection platform, increasing revenue collection efficiency by 45%.</p>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2 text-sm text-gray-500">
-                            <i class="bi fa-map-marker-alt"></i>
+                            <i class="bi bi-map-marker-alt"></i>
                             <span>Regional</span>
                         </div>
                         <a href="#contact" class="text-green-600 font-medium text-sm hover:text-green-700 flex items-center gap-1">
-                            Read More <i class="bi fa-arrow-right text-xs"></i>
+                            Read More <i class="bi bi-arrow-right text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
         <div class="text-center mt-12" data-aos="fade-up">
             <a href="#contact" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl border-2 border-green-600 text-green-700 font-semibold hover:bg-green-600 hover:text-white transition-all">
                 View All Projects
-                <i class="bi fa-arrow-right"></i>
+                <i class="bi bi-arrow-right"></i>
             </a>
         </div>
     </div>

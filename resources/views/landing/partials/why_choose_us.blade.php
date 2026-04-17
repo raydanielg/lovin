@@ -5,7 +5,7 @@
             <!-- Left - Content -->
             <div data-aos="fade-right">
                 <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-green-200 mb-6">
-                    <i class="fas fa-thumbs-up text-green-600"></i>
+                    <i class="bi fa-thumbs-up text-green-600"></i>
                     <span class="text-green-700 text-sm font-medium">Why Choose Us</span>
                 </div>
                 
@@ -20,7 +20,7 @@
                 <div class="space-y-6">
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-puzzle-piece text-green-600 text-xl"></i>
+                            <i class="bi fa-puzzle-piece text-green-600 text-xl"></i>
                         </div>
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 mb-1">Integrated Expertise</h3>
@@ -30,7 +30,7 @@
                     
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-xl bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-globe-africa text-yellow-600 text-xl"></i>
+                            <i class="bi fa-globe-africa text-yellow-600 text-xl"></i>
                         </div>
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 mb-1">Global-Regional Presence</h3>
@@ -40,7 +40,7 @@
                     
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-shield-alt text-green-600 text-xl"></i>
+                            <i class="bi fa-shield-alt text-green-600 text-xl"></i>
                         </div>
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 mb-1">Security-by-Design</h3>
@@ -50,7 +50,7 @@
                     
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-xl bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-expand text-yellow-600 text-xl"></i>
+                            <i class="bi fa-expand text-yellow-600 text-xl"></i>
                         </div>
                         <div>
                             <h3 class="text-lg font-bold text-gray-900 mb-1">Scalable Architecture</h3>
@@ -87,15 +87,15 @@
                         <div class="mt-6 pt-6 border-t border-gray-100">
                             <div class="flex items-center justify-center gap-8">
                                 <div class="text-center">
-                                    <i class="fas fa-certificate text-3xl text-green-500 mb-2"></i>
+                                    <i class="bi fa-certificate text-3xl text-green-500 mb-2"></i>
                                     <div class="text-xs text-gray-500">ISO Certified</div>
                                 </div>
                                 <div class="text-center">
-                                    <i class="fas fa-award text-3xl text-yellow-500 mb-2"></i>
+                                    <i class="bi fa-award text-3xl text-yellow-500 mb-2"></i>
                                     <div class="text-xs text-gray-500">Award Winning</div>
                                 </div>
                                 <div class="text-center">
-                                    <i class="fas fa-handshake text-3xl text-green-500 mb-2"></i>
+                                    <i class="bi fa-handshake text-3xl text-green-500 mb-2"></i>
                                     <div class="text-xs text-gray-500">Trusted Partner</div>
                                 </div>
                             </div>

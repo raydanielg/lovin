@@ -22,7 +22,7 @@
                 <div class="relative" @mouseenter="activeDropdown = 'about'" @mouseleave="activeDropdown = null">
                     <a href="/about" class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105 flex items-center gap-1" :class="{ 'text-gray-700 hover:text-green-600 hover:bg-green-50': scrolled, 'text-white hover:text-yellow-300 hover:bg-white/10': !scrolled }">
                         About Us
-                        <i class="fas fa-chevron-down text-xs transition-transform duration-300" :class="{ 'rotate-180': activeDropdown === 'about' }"></i>
+                        <i class="ri-arrow-down-s-line text-xs transition-transform duration-300" :class="{ 'rotate-180': activeDropdown === 'about' }"></i>
                     </a>
                     <div x-show="activeDropdown === 'about'" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-2" class="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden py-2">
                         <a href="/about" class="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors">About Glovin</a>

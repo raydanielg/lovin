@@ -9,7 +9,7 @@
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-                <i class="fas fa-cogs text-yellow-400"></i>
+                <i class="ri-settings-4-line text-yellow-400"></i>
                 <span class="text-yellow-300 text-sm font-medium">What We Offer</span>
             </div>
             <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Core Solutions Portfolio</h2>
@@ -20,24 +20,24 @@
             <!-- Healthcare Solutions -->
             <div class="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all" data-aos="fade-up" data-aos-delay="100">
                 <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-6 shadow-lg">
-                    <i class="fas fa-hospital text-2xl text-white"></i>
+                    <i class="ri-hospital-line text-2xl text-white"></i>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Healthcare Solutions</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Hospital Management Information Systems (HMIS)</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Electronic Medical Records (EMR/EHR)</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Telemedicine platforms</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Health data analytics</span>
                     </li>
                 </ul>
@@ -46,24 +46,24 @@
             <!-- Banking & Financial Solutions -->
             <div class="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all" data-aos="fade-up" data-aos-delay="200">
                 <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center mb-6 shadow-lg">
-                    <i class="fas fa-university text-2xl text-white"></i>
+                    <i class="ri-bank-line text-2xl text-white"></i>
                 </div>
                 <h3 class="text-xl font-bold text-white mb-3">Banking & Financial Solutions</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Digital banking platforms</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Payment processing systems</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Fraud detection and risk management</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Centralized Credit Intelligence Platform (CCIP)</span>
                     </li>
                 </ul>
@@ -77,19 +77,19 @@
                 <h3 class="text-xl font-bold text-white mb-3">Track & Trace Systems</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Anti-counterfeit solutions</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Product tracking systems</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Regulatory compliance monitoring</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Supply chain visibility</span>
                     </li>
                 </ul>
@@ -103,19 +103,19 @@
                 <h3 class="text-xl font-bold text-white mb-3">Cybersecurity Solutions</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Security Operations Center (SOC)</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Threat detection and incident response</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Identity and access management</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Vulnerability assessment & penetration testing</span>
                     </li>
                 </ul>
@@ -129,19 +129,19 @@
                 <h3 class="text-xl font-bold text-white mb-3">ICT Infrastructure & Smart Systems</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Data center design and deployment</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Network infrastructure (LAN, WAN, Fiber, Wireless)</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Cloud computing and virtualization</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Smart city and IoT systems</span>
                     </li>
                 </ul>
@@ -155,19 +155,19 @@
                 <h3 class="text-xl font-bold text-white mb-3">Enterprise Digital Platforms</h3>
                 <ul class="space-y-2 text-gray-300 text-sm">
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>ERP systems and integrations</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Workflow automation</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Custom business applications</span>
                     </li>
                     <li class="flex items-start gap-2">
-                        <i class="fas fa-check text-yellow-400 mt-1 text-xs"></i>
+                        <i class="ri-check-line text-yellow-400 mt-1 text-xs"></i>
                         <span>Data management platforms</span>
                     </li>
                 </ul>

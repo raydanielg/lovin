@@ -46,6 +46,7 @@
     <meta property="og:image:secure_url" content="https://www.glovin.co.tz/logo/GLOVIN-02.png">
     
     <!-- Structured Data / Schema.org -->
+    @verbatim
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -105,6 +106,7 @@
         ]
     }
     </script>
+    @endverbatim
     
     <!-- Local Business Schema -->
     <script type="application/ld+json">
@@ -143,6 +145,7 @@
         "currenciesAccepted": "TZS, USD, EUR"
     }
     </script>
+    @endverbatim
     
     <!-- Website Schema -->
     <script type="application/ld+json">
@@ -158,6 +161,7 @@
         }
     }
     </script>
+    @endverbatim
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

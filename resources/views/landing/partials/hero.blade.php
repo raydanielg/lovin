@@ -276,33 +276,6 @@
             }
         }
         
-        /* Code Typing Animation */
-        @keyframes type-in {
-            0% { opacity: 0; transform: translateX(-10px); }
-            100% { opacity: 1; transform: translateX(0); }
-        }
-        .animate-type {
-            animation: type-in 0.5s ease-out forwards;
-        }
-        
-        /* Blinking Cursor */
-        @keyframes blink {
-            0%, 50% { opacity: 1; }
-            51%, 100% { opacity: 0; }
-        }
-        .animate-blink {
-            animation: blink 1s step-end infinite;
-        }
-        
-        /* Network Dash Animation */
-        @keyframes dash-move {
-            0% { stroke-dashoffset: 20; }
-            100% { stroke-dashoffset: 0; }
-        }
-        .animate-dash {
-            animation: dash-move 1s linear infinite;
-        }
-        
         /* Floating Network Nodes */
         @keyframes float-node {
             0%, 100% { transform: translate(0, 0) scale(1); }
@@ -321,21 +294,6 @@
         }
         .animate-float-card {
             animation: float-card 5s ease-in-out infinite;
-        }
-        
-        /* Data Packet Animation */
-        @keyframes packet-move {
-            0% { 
-                transform: translate(0, 0) scale(1);
-                opacity: 1;
-            }
-            100% { 
-                transform: translate(var(--end-x, 100px), var(--end-y, -50px)) scale(0.5);
-                opacity: 0;
-            }
-        }
-        .animate-packet {
-            animation: packet-move 3s ease-in-out infinite;
         }
         
         /* Pulse Ring Animation */
@@ -375,13 +333,8 @@
             box-shadow: 0 0 20px rgba(234, 179, 8, 0.5), 0 0 40px rgba(234, 179, 8, 0.3);
         }
         
-        /* Connection Line Glow */
-        .connection-glow {
-            filter: drop-shadow(0 0 3px rgba(234, 179, 8, 0.8));
-        }
-        
-        /* Tech Illustration Hover */
-        #tech-illustration:hover .animate-float-node {
+        /* Programmer Illustration Hover */
+        #programmer-illustration:hover .animate-float-node {
             animation-duration: 2s;
         }
         

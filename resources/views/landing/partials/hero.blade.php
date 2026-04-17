@@ -400,6 +400,36 @@
                 });
             });
         })();
+        
+        // Text Carousel - Smooth cycling through items
+        (function() {
+            const items = document.querySelectorAll('.carousel-item');
+            if (items.length === 0) return;
+            
+            let currentIndex = 0;
+            const intervalTime = 3000; // Change every 3 seconds
+            
+            function showNextItem() {
+                // Remove active class from current item
+                items[currentIndex].classList.remove('active');
+                items[currentIndex].classList.add('prev');
+                
+                // Move to next index
+                currentIndex = (currentIndex + 1) % items.length;
+                
+                // Small delay for transition effect
+                setTimeout(() => {
+                    // Remove prev class from all items
+                    items.forEach(item => item.classList.remove('prev'));
+                    
+                    // Add active class to new current item
+                    items[currentIndex].classList.add('active');
+                }, 100);
+            }
+            
+            // Start the carousel
+            setInterval(showNextItem, intervalTime);
+        })();
     </script>
     
     <style>

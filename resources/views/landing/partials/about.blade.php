@@ -7,8 +7,8 @@
                 <div class="relative">
                     <div class="absolute -inset-4 bg-gradient-to-r from-green-500 to-yellow-500 rounded-2xl opacity-20 blur-lg"></div>
                     <div class="relative bg-gray-100 rounded-2xl overflow-hidden aspect-square">
-                        <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-green-50 to-yellow-50">
-                            <img src="{{ asset('transparentslogo/tranp-green.png') }}" alt="About Glovin" class="w-3/4 h-auto opacity-80">
+                        <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-green-50 to-yellow-50 overflow-hidden">
+                            <img src="{{ asset('illustration/illustration-businessman-discuss-with-team_7087-469.jpg') }}" alt="Glovin Team Discussion" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>

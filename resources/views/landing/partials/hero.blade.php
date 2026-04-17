@@ -62,50 +62,141 @@
                 </div>
             </div>
             
-            <!-- Right Content - Visual -->
+            <!-- Right Content - Tech Illustration with Networks -->
             <div class="hidden lg:block relative" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">
-                <div class="relative">
-                    <!-- Animated Ring -->
-                    <div class="absolute inset-0 bg-gradient-to-r from-yellow-400 to-green-400 rounded-2xl blur-2xl opacity-20 animate-pulse" style="animation-duration: 3s;"></div>
+                <div class="relative" id="tech-illustration">
+                    <!-- Animated Background Rings -->
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="absolute w-96 h-96 rounded-full border border-white/10 animate-ping" style="animation-duration: 3s;"></div>
+                        <div class="absolute w-80 h-80 rounded-full border border-yellow-400/20 animate-ping" style="animation-duration: 4s; animation-delay: 1s;"></div>
+                        <div class="absolute w-64 h-64 rounded-full border border-green-400/20 animate-ping" style="animation-duration: 5s; animation-delay: 2s;"></div>
+                    </div>
                     
-                    <!-- Main Image Container -->
-                    <div class="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/20 shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
-                        <img src="{{ asset('transparentslogo/tranp-green.png') }}" alt="Glovin Technology" class="w-full h-auto opacity-90 animate-float">
+                    <!-- Main Tech Container -->
+                    <div class="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
+                        
+                        <!-- Laptop/Monitor SVG Illustration -->
+                        <div class="relative w-full h-80">
+                            <!-- Laptop Base -->
+                            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-64 h-4 bg-gradient-to-b from-gray-700 to-gray-800 rounded-lg"></div>
+                            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-56 h-3 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full"></div>
+                            
+                            <!-- Laptop Screen -->
+                            <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 w-72 h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-t-xl border-4 border-gray-700 overflow-hidden">
+                                <!-- Screen Content - Code Animation -->
+                                <div class="absolute inset-0 bg-gradient-to-br from-green-900/50 to-green-800/30 p-4 font-mono text-xs text-green-400 overflow-hidden">
+                                    <div class="space-y-1" id="code-lines">
+                                        <div class="opacity-0 animate-type" style="animation-delay: 0.5s;"><span class="text-purple-400">function</span> <span class="text-yellow-400">secureNetwork</span>() {</div>
+                                        <div class="opacity-0 animate-type" style="animation-delay: 1s;">&nbsp;&nbsp;<span class="text-blue-400">const</span> encryption = <span class="text-green-400">"AES-256"</span>;</div>
+                                        <div class="opacity-0 animate-type" style="animation-delay: 1.5s;">&nbsp;&nbsp;<span class="text-purple-400">return</span> <span class="text-yellow-400">authenticate</span>();</div>
+                                        <div class="opacity-0 animate-type" style="animation-delay: 2s;">}</div>
+                                        <div class="opacity-0 animate-type" style="animation-delay: 2.5s;"><span class="text-gray-500">// Glovin Security Systems</span></div>
+                                        <div class="opacity-0 animate-type" style="animation-delay: 3s;"><span class="text-blue-400">import</span> { <span class="text-green-400">AfricaTech</span> } <span class="text-blue-400">from</span> <span class="text-green-400">'@glovin/core'</span>;</div>
+                                    </div>
+                                    
+                                    <!-- Typing Cursor -->
+                                    <div class="absolute bottom-4 left-4 flex items-center gap-2">
+                                        <span class="w-2 h-4 bg-green-400 animate-blink"></span>
+                                        <span class="text-xs text-gray-400">deploying...</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Screen Glare -->
+                                <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none"></div>
+                            </div>
+                            
+                            <!-- Laptop Logo -->
+                            <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-4 h-4">
+                                <div class="w-full h-full bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full animate-pulse"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Network Nodes and Connections -->
+                        <svg class="absolute inset-0 w-full h-full pointer-events-none" id="network-svg">
+                            <!-- Connection Lines -->
+                            <defs>
+                                <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#16a34a;stop-opacity:0" />
+                                    <stop offset="50%" style="stop-color:#eab308;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#16a34a;stop-opacity:0" />
+                                </linearGradient>
+                                <linearGradient id="lineGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#eab308;stop-opacity:0" />
+                                    <stop offset="50%" style="stop-color:#16a34a;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#eab308;stop-opacity:0" />
+                                </linearGradient>
+                            </defs>
+                            
+                            <!-- Animated Connection Paths -->
+                            <path d="M 50 100 Q 150 50 250 100" stroke="url(#lineGrad1)" stroke-width="2" fill="none" class="animate-dash" stroke-dasharray="5,5"/>
+                            <path d="M 250 100 Q 350 150 400 100" stroke="url(#lineGrad2)" stroke-width="2" fill="none" class="animate-dash" stroke-dasharray="5,5" style="animation-delay: 0.5s;"/>
+                            <path d="M 100 200 Q 200 150 300 200" stroke="url(#lineGrad1)" stroke-width="2" fill="none" class="animate-dash" stroke-dasharray="5,5" style="animation-delay: 1s;"/>
+                            <path d="M 300 200 Q 400 250 450 200" stroke="url(#lineGrad2)" stroke-width="2" fill="none" class="animate-dash" stroke-dasharray="5,5" style="animation-delay: 1.5s;"/>
+                        </svg>
+                        
+                        <!-- Floating Network Nodes -->
+                        <div class="absolute top-4 left-8 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 0s;">
+                            <i class="fas fa-server text-white"></i>
+                            <div class="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
+                        </div>
+                        
+                        <div class="absolute top-12 right-4 w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 0.5s;">
+                            <i class="fas fa-cloud text-white text-sm"></i>
+                            <div class="absolute -bottom-1 -left-1 w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                        </div>
+                        
+                        <div class="absolute bottom-20 left-4 w-10 h-10 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 1s;">
+                            <i class="fas fa-database text-white text-sm"></i>
+                        </div>
+                        
+                        <div class="absolute bottom-32 right-8 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 1.5s;">
+                            <i class="fas fa-shield-alt text-white text-xs"></i>
+                        </div>
+                        
+                        <div class="absolute top-20 right-20 w-6 h-6 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-full flex items-center justify-center shadow-lg animate-float-node" style="animation-delay: 2s;">
+                            <i class="fas fa-wifi text-white text-xs"></i>
+                        </div>
+                        
+                        <!-- Data Packets Animation -->
+                        <div class="absolute top-1/2 left-1/4 w-2 h-2 bg-yellow-400 rounded-full animate-packet" style="--end-x: 200px; --end-y: -50px;"></div>
+                        <div class="absolute top-1/3 right-1/3 w-2 h-2 bg-green-400 rounded-full animate-packet" style="--end-x: -150px; --end-y: 100px; animation-delay: 1s;"></div>
+                        <div class="absolute bottom-1/3 left-1/3 w-2 h-2 bg-blue-400 rounded-full animate-packet" style="--end-x: 200px; --end-y: 50px; animation-delay: 2s;"></div>
                         
                         <!-- Floating Cards with enhanced animations -->
-                        <div class="absolute -top-4 -right-4 bg-white rounded-xl p-4 shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce" style="animation-duration: 3s;">
-                            <div class="flex items-center gap-3">
-                                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center transform group-hover:rotate-12 transition-transform">
-                                    <i class="fas fa-shield-alt text-white"></i>
+                        <div class="absolute -top-6 -right-6 bg-white rounded-xl p-3 shadow-xl transform hover:scale-110 transition-all duration-300 animate-float-card" style="animation-duration: 4s;">
+                            <div class="flex items-center gap-2">
+                                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
+                                    <i class="fas fa-lock text-white text-xs"></i>
                                 </div>
                                 <div>
                                     <div class="text-xs text-gray-500">Security</div>
-                                    <div class="text-sm font-semibold text-green-700">SOC 2 Certified</div>
+                                    <div class="text-xs font-semibold text-green-700">256-bit SSL</div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="absolute -bottom-4 -left-4 bg-white rounded-xl p-4 shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce" style="animation-duration: 4s;">
-                            <div class="flex items-center gap-3">
-                                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center">
-                                    <i class="fas fa-chart-line text-white"></i>
+                        <div class="absolute -bottom-6 -left-6 bg-white rounded-xl p-3 shadow-xl transform hover:scale-110 transition-all duration-300 animate-float-card" style="animation-duration: 5s;">
+                            <div class="flex items-center gap-2">
+                                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center">
+                                    <i class="fas fa-bolt text-white text-xs"></i>
                                 </div>
                                 <div>
-                                    <div class="text-xs text-gray-500">Growth</div>
-                                    <div class="text-sm font-semibold text-yellow-700">99.9% Uptime</div>
+                                    <div class="text-xs text-gray-500">Speed</div>
+                                    <div class="text-xs font-semibold text-yellow-700">10ms Latency</div>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- Additional floating badge -->
-                        <div class="absolute top-1/2 -right-8 bg-white rounded-xl p-3 shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce" style="animation-duration: 5s;">
-                            <div class="flex items-center gap-2">
-                                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
-                                    <i class="fas fa-globe-africa text-white text-sm"></i>
-                                </div>
-                                <span class="text-xs font-semibold text-gray-700">Pan-African</span>
-                            </div>
+                        <!-- Status Badge -->
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-1 rounded-full text-xs font-semibold shadow-lg flex items-center gap-2">
+                            <span class="w-2 h-2 bg-white rounded-full animate-pulse"></span>
+                            System Online
                         </div>
+                    </div>
+                    
+                    <!-- Watermark Logo -->
+                    <div class="absolute -bottom-4 right-4 opacity-10 pointer-events-none">
+                        <img src="{{ asset('transparentslogo/tranp-green.png') }}" alt="" class="w-32 h-32">
                     </div>
                 </div>
             </div>

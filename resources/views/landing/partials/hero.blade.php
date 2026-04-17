@@ -11,6 +11,9 @@
     <div class="absolute bottom-20 left-10 w-96 h-96 bg-green-400/20 rounded-full blur-3xl animate-pulse" style="animation-duration: 6s;"></div>
     <div class="absolute top-1/2 left-1/4 w-64 h-64 bg-yellow-500/10 rounded-full blur-2xl animate-bounce" style="animation-duration: 8s;"></div>
     
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    
     <!-- Floating Shapes -->
     <div class="absolute top-32 left-20 w-4 h-4 bg-yellow-400 rounded-full animate-ping" style="animation-duration: 3s;"></div>
     <div class="absolute bottom-40 right-32 w-3 h-3 bg-green-400 rounded-full animate-ping" style="animation-duration: 4s; animation-delay: 1s;"></div>

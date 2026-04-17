@@ -1,2 +1,28 @@
+# Glovin Limited - Robots.txt
+# https://www.glovin.co.tz/robots.txt
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.glovin.co.tz/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /.env
+Disallow: /composer.json
+Disallow: /composer.lock
+
+# Allow important pages
+Allow: /sitemap.xml
+Allow: /logo/
+Allow: /illustration/
+Allow: /transparentslogo/
+
+# Crawl delay for all bots
+Crawl-delay: 10

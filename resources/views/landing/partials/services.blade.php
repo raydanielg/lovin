@@ -178,7 +178,7 @@
         <div class="text-center mt-12" data-aos="fade-up">
             <a href="#contact" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-semibold hover:from-yellow-600 hover:to-yellow-700 transition-all shadow-lg">
                 Discuss Your Project
-                <i class="fas fa-arrow-right"></i>
+<i class="ri-arrow-right-line"></i>
             </a>
         </div>
     </div>
